@@ -1,0 +1,26 @@
+@import "~bulma/sass/utilities/all.sass"
+=typography-larger-size($target:'')
+  @each $size in $sizes
+    $i: index($sizes, $size)
+    .is-larger.is-size-#{$i}#{if($target == '', '', '-' + $target)},
+    .is-larger .is-size-#{$i}#{if($target == '', '', '-' + $target)}
+      font-size: $size*2 !important
++typography-larger-size()
+
++mobile
+  +typography-larger-size('mobile')
+
++tablet
+  +typography-larger-size('tablet')
+
++touch
+  +typography-larger-size('touch')
+
++desktop
+  +typography-larger-size('desktop')
+
++widescreen
+  +typography-larger-size('widescreen')
+
++fullhd
+  +typography-larger-size('fullhd')

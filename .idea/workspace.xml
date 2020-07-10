@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c69c9ec-2536-44d5-9d51-8fb537341bed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.traefik.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/useAnime.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_spacing.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_typography.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="Sass File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dMgs4sbZK525wZ5iMqm2hxt2zv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/bulma/sass/utilities" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/src/tests" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c69c9ec-2536-44d5-9d51-8fb537341bed" name="Default Changelist" comment="" />
+      <created>1592240579510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592240579510</updated>
+      <workItem from="1592240583099" duration="29617000" />
+      <workItem from="1592339715184" duration="6183000" />
+      <workItem from="1593977443506" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="352" width="603" height="402" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592342540781">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="653" y="352" width="603" height="402" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1592342540781" />
+    <state x="742" y="312" width="424" height="482" key="FileChooserDialogImpl" timestamp="1592250380044">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="742" y="312" width="424" height="482" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1592250380044" />
+    <state width="1895" height="273" key="GridCell.Tab.0.bottom" timestamp="1592246281580">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1895" height="273" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1592246281580" />
+    <state width="1895" height="273" key="GridCell.Tab.0.center" timestamp="1592246281579">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1895" height="273" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1592246281579" />
+    <state width="1895" height="273" key="GridCell.Tab.0.left" timestamp="1592246281578">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1895" height="273" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1592246281578" />
+    <state width="1895" height="273" key="GridCell.Tab.0.right" timestamp="1592246281580">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1895" height="273" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1592246281580" />
+    <state x="652" y="271" width="615" height="566" key="find.popup" timestamp="1592302995419">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="652" y="271" width="615" height="566" key="find.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1592302995419" />
+    <state x="624" y="254" key="run.anything.popup" timestamp="1592328902655">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="624" y="254" key="run.anything.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1592328902655" />
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1592331446000">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1592331446000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/App.tsx</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

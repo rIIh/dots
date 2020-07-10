@@ -1,9 +1,18 @@
 version: '3.8'
 
 services:
-  nginx:
-    image: bitnami/nginx:latest
-    volumes:
-      - ./build:/app
+  personal-page:
+    build: .
+    image: ${REGISTRY}personal-page
+    restart: always
     ports:
       - 8080
+    networks:
+      - web
+    labels:
+      - traefik.http.routers.todos.rule=Host(`${REMOTE:-localhost}`)
+      - traefik.docker.network=web
+
+networks:
+  web:
+    external: true

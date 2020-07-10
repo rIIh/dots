@@ -1,0 +1,17 @@
+@import "~bulma/sass/helpers/spacing.sass"
+
+@each $property, $shortcut in $spacing-shortcuts
+  @each $name, $value in $spacing-values
+    // Cardinal directions
+    .#{$shortcut}-#{$name}
+      #{$property}: $value !important
+    // Horizontal axis
+    @if $spacing-horizontal != null
+      .#{$shortcut}#{$spacing-horizontal}-#{$name}
+        #{$property}-left: $value !important
+        #{$property}-right: $value !important
+    // Vertical axis
+    @if $spacing-vertical != null
+      .#{$shortcut}#{$spacing-vertical}-#{$name}
+        #{$property}-top: $value !important
+        #{$property}-bottom: $value !important

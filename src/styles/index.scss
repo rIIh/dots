@@ -1,3 +1,59 @@
+@import "variables";
+@import "spacing";
+@import "typography";
+@import "~bulma";
+@import "~animate.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+.navbar-brand {
+  @extend .is-size-4;
+  font-family: 'Dosis', $family-primary, $family-sans-serif;
+  font-weight: bold;
+}
+
+.ignore-events {
+  pointer-events: none;
+  > *:not(.ignore-events) {
+    pointer-events: initial;
+  }
+}
+
+.hero.is-dark.is-dots  {
+  .navbar {
+    background-color: rgba($black, 0.8);
+  }
+  .navbar-item, .navbar-link {
+    color: white;
+    background-color: $black;
+  }
+}
+
+@each $name, $pair in $colors {
+  $color: nth($pair, 1);
+  .is-outlined-#{$name} {
+    color: nth(map_get($colors, 'black'), 1)!important;
+    -webkit-text-stroke: $color 1px;
+    text-shadow: 0 0 1px $color;
+  }
+}
+
+.is-width-fit {
+  width: fit-content;
+}
+
+.is-height-fit {
+  height: fit-content;
+}
+
+.is-transparent {
+  color: transparent!important;
+}
+
+.is-shadowless {
+  text-shadow: none!important;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
